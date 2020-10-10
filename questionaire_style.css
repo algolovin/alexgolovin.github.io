@@ -1,0 +1,745 @@
+*{
+      margin: 0;
+      padding:0;
+    }
+
+body{
+      background-image: url(img/nature.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: sans-serif;
+      margin-top: 40px;
+      background-position: right top;
+    }
+
+.regform {
+      width: 800px;
+      background-color: rgb(0,0,0,6);
+      margin:auto;
+      color: #FFFFFF;
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      border-radius: 15px 15px 0px 0px;
+    }
+
+.main {
+      background-color: rgb(0,0,0,.7);
+      width: 800px;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+
+form{
+      padding:10px;
+    }
+
+#name{
+      width:100%;
+      height:100px;
+    }
+
+.name{
+      margin-left:25px;
+      margin-top:30px;
+      width: 125px;
+      color: white;
+      font-size:18px;
+      font-weight: 700;
+    }
+
+.firstlabel{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:203px;
+      top:-45px;
+    }
+
+
+/* FIRST NAME */
+
+.firstname{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+    }
+
+.firstname-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:203px;
+      top:-45px;
+    }
+
+/* LAST NAME */
+
+.lastname{
+      position: relative;
+      left:460px;
+      top:-80px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+    }
+
+.lastname-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:217px;
+      top:-45px;
+    }
+
+/* BIRTHDAY */
+
+.birthdate{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:485px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+.birthday-wrapper{
+      margin-top: -50px;
+    }
+
+/* COUNTRY OF BIRTH */
+
+.country{
+      position: relative;
+      left:80px;
+      top:-38px;
+      height: 42px;
+      width:235px;
+      border-radius: 6px;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+.country-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:203px;
+      top:-6px;
+    }
+
+/* CITY OF BIRTH */
+
+.city{
+      position: relative;
+      left:130px;
+      top:-40px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+    }
+
+.city-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-113px;
+      top:-6px;
+    }
+
+/* CITIZENSHIP */
+
+.citizenship{
+      position: relative;
+      left:200px;
+      top:-37px;
+      height: 42px;
+      line-height:40px;
+      width:523px;
+      border-radius: 6px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+.citizenship-wrapper{
+      margin-top:-30px;
+    }
+
+/* PHONE NUMBER */
+
+.phone-number{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:473px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+    }
+
+/* EMAIL */
+
+.email{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:473px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+    }
+
+/* SKYPE */
+
+.skype{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:473px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+    }
+
+/* SOCIAL MEDIA */
+
+.socialmedia{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:470px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+    }
+
+.socialmedia-label{
+      position: relative;
+      color: #E5E5E5;
+      font-size: 14px;
+      left:-330px;
+      top:0px;
+    }
+
+/* HEIGHT */
+
+.height{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width:200px;
+    }
+
+.height-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:203px;
+      top:-45px;
+    }
+
+/* WEIGHT */
+
+.weight{
+      position: relative;
+      left:364px;
+      top:-80px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width:200px;
+    }
+
+.weight-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:130px;
+      top:-45px;
+    }
+
+/* EYE COLOR */
+
+.eyecolor{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      height: 42px;
+      width: 245px;
+    }
+
+.eye-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-45px;
+      top:-3px;
+    }
+
+
+/* HAIR COLOR */
+
+.haircolor{
+      position: relative;
+      left:160px;
+      top:-37px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      height: 42px;
+      width: 245px;
+    }
+
+.hair-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-85px;
+      top:-5px;
+    }
+
+/* BODY TYPE */
+
+.bodytype{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:522px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      height: 42px;
+    }
+
+/* EDUCATION */
+
+.education{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:522px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      height: 42px;
+    }
+
+/* PASSPORT NUMBER */
+
+.passport{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:473px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+    }
+
+
+/* PROFESSION */
+
+.profession{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:522px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      height: 42px;
+    }
+
+/* WORK POSITION */
+
+.position{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:473px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+    }
+
+/* PROFICIENCY */
+
+.proficiency{
+      position: relative;
+      left:0px;
+      top:-38px;
+      height: 42px;
+      width:516px;
+      border-radius: 6px;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+.proficiency-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:208px;
+      top:-6px;
+    }
+
+/* RELATIONSHIP STATUS */
+
+.relationshipstatus{
+      position: relative;
+      left:200px;
+      top:-44px;
+      height: 42px;
+      width:516px;
+      border-radius: 6px;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+/* DIVORCE YEAR */
+
+.divorceyear{
+      position: relative;
+      left:-45px;
+      top:-38px;
+      height: 20px;
+      width:510px;
+      border-radius: 6px;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+.divorceyear-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:195px;
+      top:-5px;
+    }
+
+/* KIDS*/
+
+.kids{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width: 245px;
+      height: 42px;
+    }
+
+.kids-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-45px;
+      top:-5px;
+    }
+
+.kidslive{
+      position: relative;
+      left:120px;
+      top:-40px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width: 245px;
+      height: 42px;
+    }
+
+.kidslive-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-125px;
+      top:-10px;
+    }
+
+
+/* CRIMINAL*/
+
+.criminal{
+      position: relative;
+      left:-45px;
+      top:-37px;
+      line-height:40px;
+      width:530px;
+      border-radius: 6px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+.criminal-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:205px;
+      top:-5px;
+    }
+
+/* Religion*/
+
+.religion{
+      position: relative;
+      left:200px;
+      top:-34px;
+      line-height:40px;
+      border-radius: 6px;
+      padding: 10px;
+      font-size: 16px;
+      width:530px;
+    }
+
+/* VISITED COUNTRIES*/
+
+.visitedcountries-1{
+      position: relative;
+      left:200px;
+      top:-65px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width: 245px;
+      height: 42px;
+    }
+
+.visited-country-label-1{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-44px;
+      top:-30px;
+    }
+
+.visitedcountries-2{
+      position: relative;
+      left:160px;
+      top:-65px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width: 245px;
+      height: 42px;
+    }
+
+.visited-country-label-2{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-85px;
+      top:-30px;
+    }
+
+.visitedcountries-3{
+      position: relative;
+      left:200px;
+      top:-45px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width: 245px;
+      height: 42px;
+    }
+
+.visited-country-label-3{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-44px;
+      top:-10px;
+    }
+
+.visitedcountries-4{
+      position: relative;
+      left:160px;
+      top:-45px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width: 245px;
+      height: 42px; 
+    }
+
+.visited-country-label-4{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-85px;
+      top:-10px;
+    }
+
+.visitedcountries-5{
+      position: relative;
+      left:200px;
+      top:-66px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width: 245px;
+      height: 42px;
+    }
+
+.visited-country-label-5{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-44px;
+      top:-30px;
+    }
+
+.visitedcountries-6{
+      position: relative;
+      left:160px;
+      top:-66px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      width: 245px;
+      height: 42px;
+      
+    }
+
+.visited-country-label-6{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:-85px;
+      top:-32px;
+    }
+
+#countriesvisited{
+      margin-top: -20px;
+    }
+
+/* DRIVER LICENSE NUMBER*/
+
+.driverslicensenumber{
+      position: relative;
+      left:-45px;
+      top:-37px;
+      line-height:40px;
+      width:485px;
+      border-radius: 6px;
+      padding: 10px;
+      font-size: 16px;
+      width:530px;
+    }
+
+.driver-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:205px;
+      top:0px;
+    }
+
+#license{
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+/* DRIVER LICENSE NUMBER*/
+
+.photoupload{
+      position: relative;
+      left:63px;
+      top:-3px;
+      line-height:40px;
+      width:240px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #555;
+      border: solid;
+      border-color: #555;
+    }
+
+.photoupload-label{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left:205px;
+      top:0px;
+    }
+
+/* BUTTON*/
+
+.button {
+      background-color: #3BAF9F;
+      display: block;
+      margin: 20px 0px 0px 20px;
+      text-align: center;
+      border-radius: 12px;
+      border: 2px solid #366473;
+      padding: 14px 110px;
+      outline: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      transition:0.25px;
+    }
+
+.button:hover{
+      background-color:#5390F5;
+    }

@@ -1,0 +1,749 @@
+/*CSS STYLING ----------------------------------------------------------------*/ 
+
+ *{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*NAVIGATION -----------------------------------------------------------------*/
+
+nav{
+  background: #90E0EF;
+  height: 80px;
+  width: 100%;
+  position: fixed; 
+  overflow: hidden;
+  z-index: 70;
+}
+
+/* EURO-MATCH LOGO */
+
+label.logo{
+  color: black;
+  font-size: 45px;
+  line-height: 80px;
+  padding: 0 0px;
+  font-weight: bold;
+  margin-left:20px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 0px;
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: white;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 30px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #90E0EF;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+
+/*BACKGROUND IMAGE ------------------------------------------------------- */
+
+
+
+
+.cover-page{
+  border: dotted;
+        border-color: red;
+}
+
+.box{
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  
+  border-radius: 7px;
+  background-color: white;
+  margin-top: 180px;
+  margin-left: 160px;
+  margin-top: 230px;
+  opacity: 1.0; 
+  z-index: 70;
+}
+.container-logo{
+  margin-top: 20px;
+}
+
+.main-image {
+        background-image: url(img/dating1.jpg);
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        height: 800px;
+        width: 100%;
+        margin-top: -120px;
+        
+        opacity: 1.0;
+
+      }
+
+.main-image:hover {
+      opacity: .9;
+}
+
+.container-text{
+  color: #202020;
+  font-size: 1.3em;
+}
+
+.main-button{
+        background-color: #90E0EF;
+        text-align: center;
+        border-width: 1px;
+        padding: 10px;
+        text-decoration: bold;
+        border-radius: 3px;
+        width: 400px;
+        font-size: 1.3em;
+        font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 50px;
+        }
+
+  .quote-text{
+    font-style: italic;
+    color: #03045E;
+  }
+
+.main-button-1{
+        background-color: white;
+        /*#ff726f  */
+        border: solid;
+        border-width: 1px;
+        padding: 10px;
+        text-decoration: bold;
+        border-radius: 3px;
+        width: 400px;
+       /* width: auto; */
+        font-size: 1.3em;
+        font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 10px;
+}
+
+
+
+.main-button:hover{
+    background-color: #20a6e6;
+}
+
+.main-button-1:hover{
+  background-color: silver;
+  
+}
+
+.container-logo{
+        max-width: 100%;
+        max-height: auto;
+}
+
+@media screen and (max-width:1700px)
+{
+  .box {
+    margin-left:50px;
+  }
+}
+
+@media screen and (max-width:1550px)
+{
+  .box {
+    margin-left:10px;
+  }
+}
+
+@media screen and (max-width:1450px)
+{
+  .box {
+    margin-left: 0px;
+    width:100%;
+    opacity: .8;
+  }
+}
+
+
+
+
+
+ /* ICON SECTION -------------------------------------------------------------- */
+
+.icon-container {
+  margin-top: 700px;
+  background-color:white;
+}
+
+
+.icon-container h1 {
+  font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+  font-size: 36px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 400;
+  color: black;
+}
+
+.icon-container p {
+  color: #717171;
+  font-size: 20px;
+  font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+}
+
+.icons {
+  display: flex;
+  text-align: center;
+  width:auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons .icon-heading {
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 40px;
+  width: 340px;
+  padding: 20px;
+  line-height: 20px;
+  color: black;
+  position: relative;
+  font-size: 24px;
+
+}
+
+
+
+/* О HАС --------------------------------------------------------------------- */
+
+      #aboutus-wrapper {
+        display:grid;
+        grid-template-columns:1fr;
+        grid-column-gap:1em;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 1.3em;
+        width: 100%;
+        background-color: #CAF0F8; /* #90E0EF  #03045E */
+        margin-top: -20px;
+      }
+
+       .aboutus {
+        text-align: center;
+        color:#181818;
+        font-size: 3em;
+        font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+      }
+
+      h1.aboutus {
+        text-align: center;
+        
+        margin-top: 25px;
+        margin-bottom: 50px;
+        color:black;
+        font-size: 52px;
+        font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+      }
+
+      .aboutusparagraph {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        font-size: 1.4em;
+        color: black;
+      }
+
+
+/*Наша работа -----------------------------------------------------------*/
+
+#wrapper1 {
+  background-color:white;
+}
+
+#wrapper1 h1 {
+  font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+  font-size: 52px;
+  margin-top: 25px;
+  padding: 0;
+  text-align: center;
+  color:#28334AFF;
+}
+
+.icons1 {
+  display: flex;
+  text-align: center;
+  width:auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  color:#181818;
+}
+
+
+
+.icons1 .heading1 {
+  background: white;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+  border: solid;
+  border-color: #90E0EF;
+}
+
+
+.icons1 .heading1 h2{
+  color: #28334AFF;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.icons1 .heading1 p{
+  color: black;
+  font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+  font-size: 20px;
+}
+
+
+/*Наша команда --------------------------#CAF0F8---------------------------*/
+
+#wrapper {
+  background-color:#CAF0F8;
+  overflow:auto;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#wrapper h1 {
+  font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+  font-size: 52px;
+  padding: 0;
+  text-align: center;
+  color:#28334AFF;
+  margin-top: 25px;
+
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  width:auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+
+
+.team .team_member {
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #28334AFF;
+  position: relative;
+  border: solid;
+  border-color: #03045E;
+}
+
+.team .team_member:hover {
+  background: #87CEFA;
+}
+
+
+.team .team_member h3{
+  color: black;
+  font-size: 26px;
+  margin-top: 120px;
+}
+
+.team .team_member p.role{
+  color: #00B4D8;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+.team .team_member .team_img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 160px;
+  height: 160px;
+}
+
+.team_img {
+  border-radius: 50%;
+}
+
+
+/*ЧАВО -----------------------------------------------------------------------*/ 
+
+#faq-wrapper {
+        display:grid;
+        grid-template-columns:1fr;
+        grid-column-gap:.5em;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 1.3em;
+        width: 100%;
+        background-color: white;
+        margin-top: 50px;
+        overflow:auto
+      }
+
+      .faqs {
+        text-align: center;
+        color:#181818;
+        font-size: 2.5em;
+        font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+        font-weight:bold;
+        
+
+       
+      }
+
+#faq-wrapper h1 {
+        font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+        font-size: 52px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: #28334AFF;
+        margin-bottom: 50px;
+      }
+
+      .faqsparagraph {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        color: #28334AFF;
+      }
+
+      .faq-paragraph {
+        font-size:1.3em;
+
+      }
+
+      .faq-questions {
+        text-align: center;
+        color:#181818;
+        font-size: 2.5em;
+        font-family: Nunito Sans;
+      }
+
+      .faq-heading {
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+      
+/*Hаши контакты---------------------------------------------------------------*/
+
+   #color {
+  background-color:#CAF0F8;
+  overflow:auto
+}
+
+#color h1 {
+  font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+  font-size: 52px;
+  text-align: center;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 50px;
+    
+}
+
+.icon-container-contactus {
+  display: flex;
+  text-align: center;
+  width:auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #CAF0F8;
+}
+
+.icon-container-contactus .icon-heading-color {
+  background: #CAF0F8;
+  margin: 5px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+
+}
+
+.icon-container-contactus .icon-heading-color h2{
+  color: black;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+    .contact-section {
+      background-color: #CAF0F8;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      grid-column-gap:.5em;
+      text-align:center;
+      border: solid;
+      }
+
+      .contact-form{
+      max-width: 1000px;
+      max-height: 650px;
+      margin: auto;
+      padding: 0;
+      overflow: hidden;
+      
+      text-align: middle;
+      margin-top: -100px;
+      
+    }
+
+    textarea.contact-form-text{
+      resize: none;
+      height: 120px;
+    }
+
+    .contact-form-btn {
+      float: right;
+      border: 0;
+      background: #00B4D8; 
+      color: black;
+      padding: 12px 50px;
+      border-radius: 20px;
+      cursor: pointer;
+      color: white;
+
+    }
+
+    .contact-form-btn:hover {
+      background: #03045E;
+    }
+
+    .contact-form-text {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 16px 0;
+      border: solid;
+      border-color: #30045E;
+      background: white;
+      padding: 20px 40px;
+      outline: none;
+      color: black;
+      transition: 0.5s;
+    }
+
+    p.email { 
+      font-weight: bold;
+      text-align: center;
+      width: 66%;
+      color: blue;
+    }
+
+    p.phone-number {
+      font-weight: bold;
+      text-align: center;
+      width: 64%;
+      color: black;
+    }
+
+   
+    p.icon-paragraph-contact {
+      color: black; 
+      font-size: 1em;
+    }
+
+    .form-container {
+      width: 100%;
+      padding: 50px 0;
+      background-color: #CAF0F8;
+      margin-top: 48px;
+    }
+    
+    .contactus-text {
+      text-align: left; 
+    }
+    
+
+  
+
+  
+/* .highlight {
+  background-color:red;
+  color: black;
+}
+
+ .button1 {
+        margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 100px;
+
+      }
+
+      .button2 {
+        margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 400px;
+
+      }
+
+
+
+
+
+.p-highlight {
+  color: white;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+}
+
+
+
+
+
+   .color-box{
+      background-color: pink;
+      width:100%;
+      height: 226px;
+      margin-top:-100px;
+      position: absolute;
+  
+
+    }
+
+    .box {
+      border: solid;
+      border-width: 3px
+      width: 50px;
+      height: 50px;
+    }
+
+    
+
+
+*/
